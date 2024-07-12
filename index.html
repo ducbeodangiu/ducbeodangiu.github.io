@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .cv-container {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 900px;
+        }
+
+        .banner {
+            background-color: #008080;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .banner h1 {
+            margin: 0;
+            font-size: 1.5rem; /* Adjusted font size for smaller title */
+        }
+
+        .section-title {
+            color: #008080;
+            margin-bottom: 10px;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .info-item i {
+            color: #008080;
+            margin-right: 10px;
+        }
+
+        .skills, .interests {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer {
+            background-color: #008080;
+            color: white;
+            text-align: center;
+            padding: 20px 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container cv-container">
+        <div class="row banner">
+            <div class="col-md-8">
+                <h1>Hà Văn Đức</h1>
+                <p>DATA ANALYST</p>
+            </div>
+            <div class="col-md-4 text-right">
+                <img src="https://via.placeholder.com/120" alt="Avatar" class="img-fluid rounded-circle">
+            </div>
+        </div>
+        <div class="row section contact-info mt-4">
+            <div class="col-md-6">
+                <div class="info-item">
+                    <i class="fas fa-venus"></i><p>Giới tính: <b>Nam</b></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-calendar-alt"></i><p>Ngày sinh: <b>01/01/2005</b></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i><p>Số điện thoại: <b>0363771796</b></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i><p>Địa chỉ: <b>Quận 1, TPHCM</b></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i><p>Email: <b>hoangviet301104@gmail.com</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="row section mt-4" id="career-objective">
+            <div class="col-md-12">
+                <h2 class="section-title">MỤC TIÊU NGHỀ NGHIỆP</h2>
+                <p>- Mong muốn học hỏi kinh nghiệm ở môi trường làm việc chuyên nghiệp, năng động.</p>
+                <p>- Có cơ hội thăng tiến cao, thành công trong công việc.</p>
+            </div>
+        </div>
+        <div class="row section mt-4" id="education">
+            <div class="col-md-9">
+                <h2 class="section-title">HỌC VẤN</h2>
+                <h3><b>Cao Đẳng FPT Polytechnic</b></h3>
+                <p>Chuyên ngành: <b>Xử lí dữ liệu</b></p>
+                <p>Bằng cấp: <b>Cử nhân cao đẳng </b></p>
+                <p>Loại tốt nghiệp: <b>giỏi</b></p>
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-muted">2018-01 - 2018-12</h6>
+            </div>
+        </div>
+        <div class="row section mt-4" id="work-experience">
+            <div class="col-md-9">
+                <h2 class="section-title">KINH NGHIỆM LÀM VIỆC</h2>
+                <h3><b>SIÊU VIỆT GROUP</b></h3>
+                <p>Mô tả công việc:</p>
+                <ul>
+                    <li>Liên hệ với khách hàng để tư vấn và tìm hiểu nhu cầu khách hàng</li>
+                    <li>Thuyết phục khách hàng, chốt các gói hợp đồng phù hợp với từng khách hàng</li>
+                    <li>Làm hợp đồng và xử lý thanh toán</li>
+                </ul>
+                <p>Thành tích đạt được:</p>
+                <ul>
+                    <li>Hoàn thành nhiệm vụ được giao</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h6 class="text-muted">2018-01 - 2018-12</h6>
+                <h6 class="text-muted">CHUYÊN VIÊN KINH DOANH</h6>
+            </div>
+        </div>
+        <div class="row section mt-4" id="skills-interests">
+            <div class="col-md-6">
+                <h2 class="section-title">KỸ NĂNG</h2>
+                <div class="skills">
+                    <div>
+                        <p><b>Kỹ năng chính:</b> Tư duy logic</p>
+                        <p><b>Kỹ năng khác:</b> Giao tiếp tốt</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2 class="section-title">SỞ THÍCH</h2>
+                <div class="interests">
+                    <div>
+                        <p>Du lịch, nghe nhạc, thể thao, đọc sách</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Liên hệ: 0111111111 | Email: dbeoisme@gmail.com</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
