@@ -25,7 +25,7 @@
         }
 
         .banner {
-            background-color: #008080;
+            background-color: #20B2AA; /* Sea blue mint color */
             color: white;
             padding: 10px 20px;
             display: flex;
@@ -39,8 +39,11 @@
         }
 
         .section-title {
-            color: #008080;
+            background-color: #20B2AA; /* Sea blue mint color */
+            color: white;
+            padding: 10px;
             margin-bottom: 10px;
+            border-radius: 5px;
         }
 
         .info-item {
@@ -64,6 +67,36 @@
             color: white;
             text-align: center;
             padding: 40px 40px;
+        }
+
+        .language-skills {
+            margin-top: 20px;
+        }
+
+        .language-skills .skill {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .language-skills .skill .dots {
+            display: flex;
+            margin-left: 10px;
+        }
+
+        .language-skills .skill .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0 3px;
+        }
+
+        .language-skills .skill .dot.active {
+            background-color: blue;
+        }
+
+        .language-skills .skill .dot.inactive {
+            background-color: lightgray;
         }
 
     </style>
@@ -152,6 +185,45 @@
                 <div class="interests">
                     <div>
                         <p>Du lịch, nghe nhạc, thể thao, đọc sách</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row section mt-4" id="language-skills">
+            <div class="col-md-12">
+                <h2 class="section-title">TIẾNG ANH</h2>
+                <div class="language-skills">
+                    <div class="skill">
+                        <span><b>Nge:</b></span>
+                        <div class="dots">
+                            <div class="dot active"></div>
+                            <div class="dot active"></div>
+                            <div class="dot active"></div>
+                            <div class="dot inactive"></div>
+                        </div>
+                        <span><b>Nói:</b></span>
+                        <div class="dots">
+                            <div class="dot active"></div>
+                            <div class="dot active"></div>
+                            <div class="dot inactive"></div>
+                            <div class="dot inactive"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span><b>Đọc:</b></span>
+                        <div class="dots">
+                            <div class="dot active"></div>
+                            <div class="dot active"></div>
+                            <div class="dot active"></div>
+                            <div class="dot inactive"></div>
+                        </div>
+                        <span><b>Viết:</b></span>
+                        <div class="dots">
+                            <div class="dot active"></div>
+                            <div class="dot active"></div>
+                            <div class="dot active"></div>
+                            <div class="dot inactive"></div>
+                        </div>
                     </div>
                 </div>
             </div>
