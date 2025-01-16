@@ -1,241 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- FontAwesome for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>CV Hà Văn Đức</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f9;
         }
-
-        .cv-container {
-            background-color: white;
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin: 20px auto;
-            max-width: 900px;
-        }
-
-        .banner {
-            background-color: #20B2AA; /* Sea blue mint color */
-            color: white;
-            padding: 10px 20px;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
         }
-
-        .banner h1 {
-            margin: 0;
-            font-size: 1.5rem; /* Adjusted font size for smaller title */
-        }
-
-        .section-title {
-            background-color: #20B2AA; /* Sea blue mint color */
-            color: white;
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-        }
-
-        .info-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 10px;
-        }
-
-        .info-item i {
-            color: #008080;
-            margin-right: 10px;
-        }
-
-        .skills, .interests {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .footer {
-            background-color: #008080;
-            color: white;
+        .left {
+            width: 30%;
+            background: #f2ede3;
+            padding: 20px;
             text-align: center;
-            padding: 40px 40px;
         }
-
-        .language-skills {
-            margin-top: 20px;
+        .left img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            margin-bottom: 20px;
         }
-
-        .language-skills .skill {
-            display: flex;
-            align-items: center;
+        .left h1 {
+            font-size: 20px;
+            color: #333;
+        }
+        .left p {
+            font-size: 14px;
+            color: #555;
+            margin: 5px 0;
+        }
+        .right {
+            width: 70%;
+            padding: 20px;
+        }
+        h2 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
             margin-bottom: 10px;
         }
-
-        .language-skills .skill .dots {
-            display: flex;
-            margin-left: 10px;
+        .section {
+            margin-bottom: 20px;
         }
-
-        .language-skills .skill .dot {
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            margin: 0 3px;
+        .skills span {
+            display: inline-block;
+            background: #e0e0e0;
+            color: #333;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 14px;
         }
-
-        .language-skills .skill .dot.active {
-            background-color: #20B2AA; /* Matching color with section titles */
-        }
-
-        .language-skills .skill .dot.inactive {
-            background-color: lightgray;
-        }
-
     </style>
 </head>
 <body>
-    <div class="container cv-container">
-        <div class="row banner">
-            <div class="col-md-8">
-                <h1>Hà Văn Đức</h1>
-                <p>DATA ANALYST</p>
-            </div>
-            <div class="col-md-4 text-right">
-                <img src="z5482175153639_ce317f550ac7f2f0f3362989cd4b82ff.jpg" alt="Avatar" class="img-fluid rounded-circle">
-            </div>
+    <div class="container">
+        <!-- Cột trái -->
+        <div class="left">
+            <img src="z5482175153639_ce317f550ac7f2f0f3362989cd4b82ff.jpg" alt="Ảnh đại diện">
+            <h1>Hà Văn Đức</h1>
+            <p>Chuyên viên phân tích dữ liệu</p>
+            <p><strong>Địa chỉ:</strong> Long Biên, Hà Nội</p>
+            <p><strong>Email:</strong> dbeoisme@gmail.com</p>
+            <p><strong>Điện thoại:</strong> 0363771796</p>
         </div>
-        <div class="row section contact-info mt-4">
-            <div class="col-md-6">
-                <div class="info-item">
-                    <i class="fas fa-venus"></i><p>Giới tính: <b>Nam</b></p>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-calendar-alt"></i><p>Ngày sinh: <b>01/01/2005</b></p>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-phone"></i><p>Số điện thoại: <b>0363771796</b></p>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-map-marker-alt"></i><p>Địa chỉ: <b>Long Biên, Hà Nội</b></p>
-                </div>
-                <div class="info-item">
-                    <i class="fas fa-envelope"></i><p>Email: <b>dbeoisme@gmail.com</b></p>
-                </div>
+
+        <!-- Cột phải -->
+        <div class="right">
+            <!-- Mục tiêu nghề nghiệp -->
+            <div class="section">
+                <h2>Mục tiêu nghề nghiệp</h2>
+                <p>Mong muốn trở thành chuyên gia phân tích dữ liệu, tham gia các dự án lớn liên quan đến dữ liệu tài chính và trí tuệ nhân tạo.</p>
             </div>
-        </div>
-        <div class="row section mt-4" id="career-objective">
-            <div class="col-md-12">
-                <h2 class="section-title">MỤC TIÊU NGHỀ NGHIỆP</h2>
-                <p>- Mong muốn học hỏi kinh nghiệm ở môi trường làm việc chuyên nghiệp, năng động.</p>
-                <p>- Có cơ hội thăng tiến cao, thành công trong công việc.</p>
-            </div>
-        </div>
-        <div class="row section mt-4" id="education">
-            <div class="col-md-9">
-                <h2 class="section-title">HỌC VẤN</h2>
-                <h3><b>Cao Đẳng FPT Polytechnic</b></h3>
-                <p>Chuyên ngành: <b>Xử lí dữ liệu</b></p>
-                <p>Bằng cấp: <b>Cử nhân cao đẳng </b></p>
-                <p>Loại tốt nghiệp: <b>giỏi</b></p>
-            </div>
-            <div class="col-md-3">
-                <h6 class="text-muted">2023-09 - 2025-09</h6>
-            </div>
-        </div>
-        <div class="row section mt-4" id="work-experience">
-            <div class="col-md-9">
-                <h2 class="section-title">KINH NGHIỆM LÀM VIỆC</h2>
-                <h3><b>TubeVietnam</b></h3>
-                <p>Mô tả công việc:</p>
+
+            <!-- Kinh nghiệm -->
+            <div class="section">
+                <h2>Kinh nghiệm</h2>
                 <ul>
-                    <li>Thương mại điện tử</li>
-                    <li>Liên hệ KOL,KOC</li>
-                    <li>Crawl Data khách hàng</li>
-                </ul>
-                <p>Thành tích đạt được:</p>
-                <ul>
-                    <li>Hoàn thành nhiệm vụ được giao</li>
+                    <li>
+                        <strong>TUBE VIETNAM 2023-2025</strong><br>
+                        Nhân viên thu thập dữ liệu
+                        <ul>
+                            <li>Sử dụng các công cụ như Python, Excel để tự động hóa công việc thu thập.</li>
+                            <li>Kiểm tra và làm sạch dữ liệu để đảm bảo tính chính xác và đầy đủ trước khi lưu trữ.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Dự án mẫu 2024: Phân tích giá vàng</strong>
+                        <ul>
+                            <li>Chức vụ: Leader</li>
+                            <li>Tìm kiếm đề tài và lập kế hoạch dự án.</li>
+                            <li>Phân công nhiệm vụ và kiểm tra tiến độ nhóm.</li>
+                            <li>Giao tiếp và báo cáo kết quả dự án.</li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
-            <div class="col-md-3">
-                <h6 class="text-muted">2023-08 - 2025-08</h6>
-                <h6 class="text-muted">CHUYÊN VIÊN </h6>
+
+            <!-- Học vấn -->
+            <div class="section">
+                <h2>Học vấn</h2>
+                <p><strong>Cao đẳng FPT Polytechnic 2023-2025</strong><br>Chuyên ngành: Xử lý dữ liệu<br>Bằng cấp: Cử nhân cao đẳng</p>
             </div>
-        </div>
-        <div class="row section mt-4" id="skills-interests">
-            <div class="col-md-6">
-                <h2 class="section-title">KỸ NĂNG</h2>
+
+            <!-- Chứng chỉ -->
+            <div class="section">
+                <h2>Chứng chỉ</h2>
+                <ul>
+                    <li>Khóa học online Udemy</li>
+                    <li>Portfolio xưởng thực hành</li>
+                </ul>
+            </div>
+
+            <!-- Kỹ năng -->
+            <div class="section">
+                <h2>Kỹ năng</h2>
                 <div class="skills">
-                    <div>
-                        <p><b>Kỹ năng chính:</b> Tư duy logic</p>
-                        <p><b>Kỹ năng khác:</b> Giao tiếp vừa</p>
-                    </div>
+                    <span>Lập trình Python</span>
+                    <span>Làm việc nhóm</span>
+                    <span>Tin học văn phòng</span>
+                    <span>Có thể sử dụng ngoại ngữ</span>
                 </div>
             </div>
-            <div class="col-md-6">
-                <h2 class="section-title">SỞ THÍCH</h2>
-                <div class="interests">
-                    <div>
-                        <p>Du lịch, nghe nhạc, thể thao, đọc sách</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row section mt-4" id="language-skills">
-            <div class="col-md-12">
-                <h2 class="section-title">TIẾNG ANH</h2>
-                <div class="language-skills">
-                    <div class="skill">
-                        <span><b>Nghe:</b></span>
-                        <div class="dots">
-                            <div class="dot active"></div>
-                            <div class="dot active"></div>
-                            <div class="dot active"></div>
-                            <div class="dot inactive"></div>
-                        </div>
-                        <span><b>Nói:</b></span>
-                        <div class="dots">
-                            <div class="dot active"></div>
-                            <div class="dot active"></div>
-                            <div class="dot inactive"></div>
-                            <div class="dot inactive"></div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span><b>Đọc:</b></span>
-                        <div class="dots">
-                            <div class="dot active"></div>
-                            <div class "dot active"></div>
-                            <div class="dot active"></div>
-                            <div class="dot inactive"></div>
-                        </div>
-                        <span><b>Viết:</b></span>
-                        <div class="dots">
-                            <div class="dot active"></div>
-                            <div class="dot active"></div>
-                            <div class="dot active"></div>
-                            <div class="dot inactive"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            <p>Liên hệ: 0363771796 | Email: dbeoisme@gmail.com</p>
         </div>
     </div>
-
-    <!-- Bootstrap JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
