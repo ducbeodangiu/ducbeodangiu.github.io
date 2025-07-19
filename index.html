@@ -1,149 +1,32 @@
+
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Hà Văn Đức</title>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trợ lý Tính BMI & Sức khỏe AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            background: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: flex;
-        }
-        .left {
-            width: 30%;
-            background: #f2ede3;
-            padding: 20px;
-            text-align: center;
-        }
-        .left img {
-            border-radius: 50%;
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-        .left h1 {
-            font-size: 20px;
-            color: #333;
-        }
-        .left p {
-            font-size: 14px;
-            color: #555;
-            margin: 5px 0;
-        }
-        .right {
-            width: 70%;
-            padding: 20px;
-        }
-        h2 {
-            font-size: 18px;
-            color: #333;
-            margin-bottom: 10px;
-            border-bottom: 2px solid #ddd;
-            padding-bottom: 5px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .skills span {
-            display: inline-block;
-            background: #e0e0e0;
-            color: #333;
-            padding: 5px 10px;
-            margin: 5px;
-            border-radius: 5px;
-            font-size: 14px;
-        }
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
 </head>
-<body>
-    <div class="container">
-        <!-- Cột trái -->
-        <div class="left">
-            <img src="z5482175153639_ce317f550ac7f2f0f3362989cd4b82ff.jpg" alt="Ảnh đại diện">
-            <h1>Hà Văn Đức</h1>
-            <p>Chuyên viên phân tích dữ liệu</p>
-            <p><strong>Địa chỉ:</strong> Long Biên, Hà Nội</p>
-            <p><strong>Email:</strong> dbeoisme@gmail.com</p>
-            <p><strong>Điện thoại:</strong> 0363771796</p>
-        </div>
-
-        <!-- Cột phải -->
-        <div class="right">
-            <!-- Mục tiêu nghề nghiệp -->
-            <div class="section">
-                <h2>Mục tiêu nghề nghiệp</h2>
-                <p>Mong muốn trở thành chuyên gia phân tích dữ liệu, tham gia các dự án lớn liên quan đến dữ liệu tài chính và trí tuệ nhân tạo.</p>
-            </div>
-
-            <!-- Kinh nghiệm -->
-            <div class="section">
-                <h2>Kinh nghiệm</h2>
-                <ul>
-                    <li>
-                        <strong>TUBE VIETNAM 2023-2025</strong><br>
-                        Nhân viên thu thập dữ liệu
-                        <ul>
-                            <li>Sử dụng các công cụ như Python, Excel để tự động hóa công việc thu thập.</li>
-                            <li>Kiểm tra và làm sạch dữ liệu để đảm bảo tính chính xác và đầy đủ trước khi lưu trữ.</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <strong>Dự án mẫu 2024: Phân tích giá vàng</strong>
-                        <ul>
-                            <li>Chức vụ: Leader</li>
-                            <li>Tìm kiếm đề tài và lập kế hoạch dự án.</li>
-                            <li>Phân công nhiệm vụ và kiểm tra tiến độ nhóm.</li>
-                            <li>Giao tiếp và báo cáo kết quả dự án.</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-            <!-- Học vấn -->
-            <div class="section">
-                <h2>Học vấn</h2>
-                <p><strong>Cao đẳng FPT Polytechnic 2023-2025</strong><br>Chuyên ngành: Xử lý dữ liệu<br>Bằng cấp: Cử nhân cao đẳng</p>
-            </div>
-
-            <!-- Chứng chỉ -->
-            <div class="section">
-                <h2>Chứng chỉ</h2>
-                <ul>
-                    <li>Khóa học online Udemy</li>
-                    <li>Portfolio xưởng thực hành</li>
-                </ul>
-            </div>
-
-            <!-- Kỹ năng -->
-            <div class="section">
-                <h2>Kỹ năng</h2>
-                <div class="skills">
-                    <span>Lập trình Python</span>
-                    <span>Làm việc nhóm</span>
-                    <span>Tin học văn phòng</span>
-                    <span>Có thể sử dụng ngoại ngữ</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
 </html>

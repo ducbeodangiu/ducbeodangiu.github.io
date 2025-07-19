@@ -1,0 +1,7 @@
+
+{
+  "name": "Trợ lý Tính BMI & Sức khỏe AI",
+  "description": "Một ứng dụng thân thiện giúp bạn tính toán và hiểu chỉ số khối cơ thể (BMI) của mình. Nhập chiều cao và cân nặng để xem kết quả và nhận lời khuyên hữu ích. Đặc biệt, trò chuyện với Trợ lý Sức khỏe AI để nhận các mẹo về dinh dưỡng và thể dục.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
